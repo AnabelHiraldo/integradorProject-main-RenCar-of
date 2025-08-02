@@ -1,0 +1,26 @@
+.create-new-password-container {
+  width: 350px;
+  height: 250px;
+  background-color: white;
+  padding: 10px;
+  position: absolute;
+  right: 14%;
+  border-radius: 10px;
+  top: 40%;
+  animation: fadeIn 1.5s forwards;
+}
+
+
+
+.field-new-password {
+  width: 250px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 0 15px 0 15px;
+  outline: none;
+  border: .5px solid #007bff;
+}
+
+.field-new-password:focus {
+  border: 2px solid #007bff;
+}

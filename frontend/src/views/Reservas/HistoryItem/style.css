@@ -1,0 +1,10 @@
+.history_item {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(128, 128, 128, .1);
+    justify-content: space-between;
+    padding: 1rem;
+    color: black;
+    border-radius: 10px;
+    /* border-bottom: 1px solid #333; */
+}

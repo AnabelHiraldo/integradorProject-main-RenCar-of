@@ -1,0 +1,279 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.car-view-title{
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    text-align: center;
+    line-height: 25px;
+    font-size: 2rem;
+    font-weight: 700;
+    opacity: 70%;
+    /* color: #282727; */
+    /* text-shadow: 2px 2px 2px rgba(55, 53, 53, 0.5); */
+}
+.loading-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sections-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.summarize-container {
+   width: 50%;
+   height: 100%;
+   padding-top: 50px;
+}
+.body-container {
+    width: 100%;
+    height: 75vh;
+    border-radius: 5px;
+    padding: 0 50px 0px 50px;
+    /* background-color: #989fb2; */
+}
+.car-view {
+    width: 80%;
+    height: 80%;
+    position: relative;
+    border-radius: 30px;
+    background: linear-gradient(145deg, #ffffff, #e6e6e6);
+    box-shadow:  28px 28px 56px #999999,
+                 -28px -28px 56px #ffffff;
+    /* opacity: 0; */
+    /* animation: fadeIn 1s forwards; */
+}
+.car-img{
+    position: absolute;
+    height: 25rem;
+    right: 5rem;
+    top: -5rem;
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+.body {
+    font-family: "Montserrat", sans-serif;
+    background-color: gray;
+}
+.cars-section {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+    align-items: end;
+}
+
+.login_register_wrapper {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.login_register_container {
+    width: 30%;
+    z-index: 2;
+    height: 550px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 5.5% 30px 20px 30px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    animation: fadeIn 1s forwards;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.padreePrincipalPage {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    /* width: 100vw; */
+}
+
+.body-page{
+    padding: 60px 160px 0 160px;
+}
+
+.padreePrincipalPage .header .menu {
+    /* background: #fff; */
+    display: flex;
+    align-items: center;
+    height: 50px;
+    padding: 0 20px;
+    border-bottom: 1px solid rgba(255, 253, 253, 0.5);
+    /* z-index: 1000; */
+    /* position: fixed; */
+}
+.padreePrincipalPage .menu .logo {
+    flex: 1;
+    font-size: 25px;
+    font-weight: bold;
+}
+.padreePrincipalPage .nav {
+    flex: 2;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.padreePrincipalPage .nav a {
+    color: #0d0d0d;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 0 15px;
+    letter-spacing: 1.5px;
+}
+.padreePrincipalPage .nav a:hover {
+    color: #f1bc00;
+    transition: 0.2s ease-in-out all;
+    border-bottom: 1px solid #f1bc00;
+}
+.padreePrincipalPage .social {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+.padreePrincipalPage .social a {
+    font-size: 18px;
+    color: #000000;
+    margin-left: 10px;
+}
+/* .padreePrincipalPage #contenidoDinamico {
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: auto;
+} */
+.padreePrincipalPage #contenidoDinamico {
+    width: 100%; /* El contenedor ocupa todo el ancho */
+    height: auto; 
+    position: relative;
+    /* overflow-x: hidden; Oculta el desbordamiento horizontal */
+    /* overflow-y: auto;  */
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    box-sizing: border-box;
+    /* overflow-x: scroll; */
+}
+.padreePrincipalPage #contenidoDinamico .sectionInfoPrincipalPage {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url(image.png) no-repeat center center;
+    background-size: cover;
+}
+.padreePrincipalPage #contenidoDinamico .sectionInfoPrincipalPage .textSection1 {
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    text-align: left;
+    max-width: 300px;
+}
+.padreePrincipalPage #contenidoDinamico .sectionInfoPrincipalPage .textSection1 p {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.padreePrincipalPage #contenidoDinamico .sectionInfoPrincipalPage .textSection1 button {
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 120px;
+    height: 35px;
+    color: white;
+    background: #21408e;
+    font-size: 14px;
+    cursor: pointer;
+}
+.padreePrincipalPage #contenidoDinamico .section2Ppage {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: white;
+}
+.padreePrincipalPage #contenidoDinamico .section2Ppage .divCar,
+.padreePrincipalPage #contenidoDinamico .section2Ppage .divText {
+    width: 45%;
+}
+.padreePrincipalPage #contenidoDinamico .section2Ppage .divCar img {
+    width: 100%;
+    height: auto;
+}
+.padreePrincipalPage #contenidoDinamico .section2Ppage .divText {
+    text-align: left;
+}
+.padreePrincipalPage #contenidoDinamico .section2Ppage .divText p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+  
+.padreePrincipalPage .footer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 250px; /* Ajusta la altura automáticamente al contenido */
+  background-color: rgba(8, 22, 48, 1);
+  justify-content: center;
+  padding: 20px;
+}
+.padreePrincipalPage .footer #pie {
+  text-align: center;
+  /* margin-bottom: 10px; Espaciado entre #pie y el resto del contenido */
+}
+.padreePrincipalPage .footer #pie a {
+  color: #fff;
+  font-size: 11px;
+  text-transform: uppercase;
+  padding: 0 10px;
+  letter-spacing: 2px;
+}
+.padreePrincipalPage .footer .piecont {
+  position: relative;
+    display: flex;
+    width: 100%;
+    height: 230px;
+    justify-content: space-between;
+    margin: 20px;
+}
+.padreePrincipalPage .footer .piecont .pdddd {
+  font-size: 20px;
+}
+.padreePrincipalPage .footer .piediv {
+  width: 33%;
+}
+.padreePrincipalPage .footer .piediv p {
+  color: white;
+  /* margin-bottom: 5px;
+  font-size: 12px; */
+}

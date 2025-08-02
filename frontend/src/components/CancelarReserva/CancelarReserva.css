@@ -1,0 +1,50 @@
+.cancelar-reserva-form {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background: #f9f9f9;
+  }
+  
+  .cancelar-reserva-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .cancelar-reserva-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .cancelar-reserva-form .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .cancelar-reserva-form .form-group select,
+  .cancelar-reserva-form .form-group textarea,
+  .cancelar-reserva-form .form-group input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .cancelar-reserva-form .btn-cancelar {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #d9534f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .cancelar-reserva-form .btn-cancelar:hover {
+    background: #c9302c;
+  }
+  

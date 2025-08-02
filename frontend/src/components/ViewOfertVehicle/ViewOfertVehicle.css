@@ -1,0 +1,164 @@
+/* .fatherOfert{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    height: 500px;
+    background-color: aqua;
+    translate: 3% 20%;
+    position: relative;
+}
+.fatherOfert .imagenes{
+    background-color: black;
+    left: 0px;
+    width: 20%;
+    height: 100%;
+}
+
+.fatherOfert .imagenes .articleImag{
+    background-color: red;
+    width: 250px;
+    height: 32%;
+    margin-top: 5px;
+}
+.fatherOfert .vehicledata{
+    position: absolute;
+    background-color: purple;
+   top: 0px; 
+    width: 80%;
+    height: 20px;
+} */
+
+
+
+.offer-details {
+  position: relative;
+   /* width: 100%; */
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    font-family: Arial, sans-serif;
+    position: fixed;
+    z-index: 1000;
+
+
+  }
+  .offer-details .closeModal{
+    position: absolute;
+    width: 100px;
+    right: 0px;
+    top: 5px;
+    font-size: 24px;
+    display: flex;
+    justify-content: end;
+    margin-right: 5px;
+    
+  }
+  .offer-details .closeModal h1{
+    
+  }
+  .offer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .offer-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .offer-header h2 {
+    font-size: 20px;
+    color: #ff0000;
+    margin: 0;
+  }
+  
+  .offer-images {
+    width: 250px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    object-fit: cover;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .thumbnail-images {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .thumbnail {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid #ddd;
+  }
+  
+  .offer-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .general-info, .electric-info {
+    width: 48%;
+  }
+  
+  .general-info h3, .electric-info h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .general-info p, .electric-info p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .contact-section {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+  
+  .btn-contact, .btn-test-drive {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #fff;
+  }
+  
+  .btn-contact {
+    background-color: #007bff;
+  }
+  
+  .btn-test-drive {
+    background-color: #28a745;
+  }
+  
+  .btn-contact:hover {
+    background-color: #0056b3;
+  }
+  
+  .btn-test-drive:hover {
+    background-color: #218838;
+  }
+  

@@ -1,0 +1,41 @@
+.reservas_cont{
+    width: 100%;
+    height: 50vh;
+    padding: 1rem;
+}
+
+.modal_reservas{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+.modal_child {
+    width: 50%;
+    position: relative;
+    height: 50%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 5%;
+    animation: ff 0.5s;
+}
+
+@keyframes ff {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

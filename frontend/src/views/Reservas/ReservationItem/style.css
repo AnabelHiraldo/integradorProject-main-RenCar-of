@@ -1,0 +1,25 @@
+.reservation_item{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(128, 128, 128, .1);
+    justify-content: space-between;
+    padding: 1rem;
+    color: black;
+    border-radius: 10px;
+    /* border-bottom: 1px solid #333; */
+}
+
+.reservation_item_actions{
+    display: flex;
+    flex-direction: row;
+    gap: .2rem;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+
+.reservation_details_cont{
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+}

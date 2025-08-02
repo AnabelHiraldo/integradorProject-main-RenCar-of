@@ -1,0 +1,12 @@
+@keyframes lock {
+  50% {
+    opacity: 0.5;
+    }
+  100% {
+    opacity: 1;
+  }
+}
+
+.lock {
+  animation: lock 1.5s infinite;
+}

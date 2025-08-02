@@ -1,0 +1,403 @@
+.title {
+  background-color: #0080ff;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+}
+.group {
+  display: flex;
+  justify-content: space-between;
+}
+.group .field {
+  width: 33%;
+  margin: 10px;
+}
+
+.reservas-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+.reservas-container  .buttonCancelarOnline{
+  /* background-color: #0056b3; */
+  display: flex;
+  justify-content: end;
+  height: 30px;
+}
+.reservas-container  .buttonCancelarOnline button{
+  color: white;
+  margin-right: 10px;
+  font-size: 17px;
+  background-color: rgb(203, 14, 14);
+  width: 156px;
+  height: 50px;
+  border-radius: 10px;
+}
+.reservas-container  .buttonCancelarOnline button:hover{
+  background-color: rgb(53, 6, 6);
+  color: red;
+}
+.reservas-container .buttomModifier {
+  height: 40px;
+  /* background-color: #ddd; */
+  text-align: center;
+  align-items: center;
+}
+.reservas-container .buttomModifier .buttonInsideModifier {
+  height: 40px;
+  width: 200px;
+  border-radius: 10px;
+  text-align: center;
+  align-items: center;
+  background-color: #007bff;
+  color: white;
+}
+.reservas-container .buttomModifier .buttonInsideModifier:hover {
+  background-color: #1165be;
+}
+.reserva-group {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.reserva-group h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.reserva-group p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.SectioModificarReservasOnline thead {
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0px;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f1f5ff;
+  
+}
+
+tbody tr:hover {
+  background-color: #e9eefc;
+}
+
+td {
+  border-bottom: 1px solid #ddd;
+  
+}
+td button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+td button:hover {
+  background-color: #0056b3;
+}
+
+/* -------------------------Modal---------------------------- */
+
+/* Estilo general del modal */
+ .ReactModal__OverlayyOnline {
+  background-color: rgba(0, 0, 0, 0.75); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  z-index: 1000;
+  position: fixed; 
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; 
+}
+
+/* Contenido del modal */
+.ReactModal__OverlayyOnline .ReactModal__ContentttOnline {
+  position: relative;
+  width: 90%;
+  max-width: 1200px;
+  max-height: 90%;
+  overflow-y: auto;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border: none;
+  animation: fadeIn 0.3s ease-in-out; 
+}
+
+/* Cabecera del modal */
+.modal-content h2 {
+  font-size: 24px;
+  color: #333333;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.ReactModal__Content .buttonAccion {
+  display: flex;
+  /* background-color: #0080ff; */
+  justify-content: space-between;
+}
+.ReactModal__Content .buttonAccion .ButtonSaveChange {
+  background-color: #007bff;
+  border-radius: 5px;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  font-size: 14px;
+
+}
+.ReactModal__Content .buttonAccion .ButtonCancelar {
+  background-color: #949597;
+  height: 40px;
+  text-align: center;
+  align-items: center;
+  width: 50%;
+  font-size: 14px;
+
+}
+
+/* Botones */
+.ReactModal__Content button {
+  padding: 10px 15px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px;
+
+}
+
+.ReactModal__Content button:hover {
+  opacity: 0.9;
+}
+
+.ReactModal__Content button:active {
+  transform: scale(0.98);
+}
+
+/* Botón principal */
+.ReactModal__Content button:first-of-type {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Botón cancelar */
+.ReactModal__Content button:last-of-type {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Tabla de contenido */
+.ReactModal__Content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.ReactModal__Content table thead {
+  background-color: #007bff;
+  color: white;
+  text-align: left;
+}
+
+.ReactModal__Content table thead th {
+  padding: 10px;
+  font-weight: bold;
+}
+
+.ReactModal__Content table tbody tr {
+  border-bottom: 1px solid #ddd;
+}
+
+.ReactModal__Content table tbody td {
+  padding: 10px;
+}
+
+.ReactModal__Content table tbody tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Filtros */
+.ReactModal__Content .group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  gap: 15px;
+}
+
+.ReactModal__Content .field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #555;
+}
+
+.ReactModal__Content .field input,
+.field select {
+  width: 100%;
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+}
+
+.ReactModal__Content .field input:focus,
+.field select:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.3);
+}
+
+/* Animación del modal */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  .ReactModal__Content {
+    width: 95%;
+    padding: 15px;
+  }
+
+  table thead th,
+  table tbody td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .group {
+    flex-direction: column;
+  }
+
+  button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
+
+/* -------------------------------------------MODAL CANCELAR RESERVA */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.custom-modal {
+  animation: slideDown 0.6s ease-out;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  position: relative;
+  outline: none;
+  /* animation: fadeIn 0.3s ease-in-out;  */
+
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.cancelar-reserva-form .form-group {
+  margin-bottom: 15px;
+}
+
+.cancelar-reserva-form .form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.cancelar-reserva-form .form-group select,
+.cancelar-reserva-form .form-group textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.btn-cancelar,
+.btn-submit {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-cancelar {
+  background: #ccc;
+  color: #000;
+}
+
+.btn-submit {
+  background: #d9534f;
+  color: #fff;
+}
+
+.btn-submit:hover {
+  background: #c9302c;
+}

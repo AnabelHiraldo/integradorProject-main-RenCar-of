@@ -1,0 +1,143 @@
+.sectionAccident {
+    padding: 20px;
+    height: 100%;
+    overflow: scroll;
+  }
+  
+  .sectionAccident header {
+    text-align: center;
+    font-size: 1.8rem;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .sectionAccident .search-container {
+    margin-bottom: 30px;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sectionAccident .search-container label {
+    font-size: 16px;
+    color: #333;
+  }
+  
+  .sectionAccident .search-group {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .sectionAccident .search-group input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .sectionAccident .search-group .buttonSearch {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .sectionAccident .search-group .buttonSearch:hover {
+    background-color: #0056b3;
+  }
+  
+  .vehicle-info {
+    margin-top: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vehicle-info h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  .vehicle-info table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  .vehicle-info th, 
+  .vehicle-info td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .vehicle-info thead {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .vehicle-info tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .vehicle-info tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .form-field {
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  .form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  .form-field .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 12px;
+  }
+  
+  .form-actions {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .button-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button-primary:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,85 @@
+.item-container {
+    width: 40vw;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 13%;
+    right: 40%;
+    box-shadow: 0px 0px 12px -7px #85b6eb;
+    display: flex;
+
+}
+
+.details {
+    width: 80%;
+    height: 100%;
+    padding: 10px 5% 10px 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.division {
+    width: 1px;
+    height: 80%;
+    background-color: #9db9dc; /*dinamico*/
+}
+
+.car-color {
+    width: 20%;
+    height: 90%;
+  /*  background-color: #9db9dc; dinamico*/
+    border-radius: 10px;
+}
+
+.price-h{
+    font-size: 20px;
+    font-weight: 700;
+    color: #9db9dc; /*dinamico*/
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.modelo {
+    font-size: 20px;
+    font-weight: 700;
+    color: #9db9dc; 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.rent-btn {
+    font-size: 15px;
+    width: 20%;
+    margin: 10px;
+    padding: 8px 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    border: 0px;
+    font-weight: 700;
+    box-shadow: 0px 0px 14px -7px #85b6eb;
+    background-image: linear-gradient(45deg, #007bff 0%, #85b6eb 51%, #007bff  100%);
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .rent-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .rent-btn:active {
+    transform: scale(0.95);
+  }

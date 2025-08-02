@@ -1,0 +1,231 @@
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .esp .field .control{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 6px;
+}
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .esp .field .control p{
+    font-size: 15px;
+}
+
+/* Estilo general para la sección */
+.sectionFatherVehicle {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f5f5f5; 
+    /* overflow-x: hidden; */
+}
+
+.sectionFatherVehicle .sectionFatherInside {
+    display: flex;
+    width: 95%; /* Ajusta el ancho total al contenido */
+    height: 95%;
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Barra de filtro */
+.sectionFatherVehicle .sectionFatherInside .barraFiltro {
+    min-width: 400px;
+    height: 100%;
+    background-color: #ffffff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.05);
+}
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .topPart {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    text-align: center;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .topPart p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .buttonsearch
+{
+    background: #f9f9f9;
+
+}
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .buttonsearch button
+{
+    background-color: #f65d22;
+    width: 100%;
+    height: 50px;
+    border-radius: 7px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #555;
+}
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .esp {
+    /* border-top: 2px solid #ddd; */
+    margin: 15px auto;
+    width: 100%;
+}
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .esp .field {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 100%;
+    background-color: #f9f9f9;
+}
+
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .esp .field .label {
+    width: 80px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #444;
+    display: flex;
+    justify-content: start;
+}
+
+/* .sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .esp .field .select {
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 270px;
+    position: relative;
+} */
+
+
+
+
+/* Vehículos */
+.sectionFatherVehicle .sectionFatherInside .vehiculos {
+    /* width: 100%;
+    height: auto; */
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 0 20px 20px 0;
+    overflow-x: scroll;
+}
+
+.sectionFatherVehicle .sectionFatherInside .vehiculos .vehiculosInside {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* display: grid; */
+    /* grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    /* gap: 20px; */
+}
+
+/* Tarjetas de vehículos */
+.vehiculosInside .vehicleCard {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.vehiculosInside .vehicleCard:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.vehiculosInside .vehicleCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+}
+
+.vehiculosInside .vehicleCard .details {
+    padding: 10px;
+    text-align: center;
+}
+
+.vehiculosInside .vehicleCard .details h3 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.vehiculosInside .vehicleCard .details p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+    .sectionFatherVehicle .sectionFatherInside {
+        flex-direction: column;
+    }
+
+    .sectionFatherVehicle .sectionFatherInside .barraFiltro {
+        min-width: 100%;
+        border-right: none;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .sectionFatherVehicle .sectionFatherInside .vehiculos {
+        flex-grow: 1;
+    }
+}
+
+
+.sectionFatherVehicle .sectionFatherInside .barraFiltro .searhCar .esp .field .select {
+    position: relative;
+    width: 100%;
+    /* padding: 8px; */
+    /* padding-right: 4vh; */
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    color: #333;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: border-color 0.3s ease;
+    cursor: pointer;
+  }
+  
+  select:focus {
+    outline: none;
+    border-color: #66afe9;
+    box-shadow: 0 0 4px rgba(102, 175, 233, 0.6);
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  /* Agregar un ícono de flecha personalizado */
+  /* select {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23666'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    background-size: 16px;
+  } */

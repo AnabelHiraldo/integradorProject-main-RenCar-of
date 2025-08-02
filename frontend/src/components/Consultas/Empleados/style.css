@@ -1,0 +1,57 @@
+.Empleados_cont{
+    width: 100%;
+    height: 50vh;
+    padding: 2rem;
+}
+
+  
+  .search-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+  
+  .search-group {
+    margin-right: 10px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .search-button {
+    padding: 8px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .search-button:hover {
+    background-color: #45a049;
+  }
+  
+  .filter-dropdown {
+    padding: 8px;
+    width: 250px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .ag-theme-quartz {
+    margin-top: 20px;
+    border-radius: 10px;
+  }
+  .Empleados_cont h1 {
+    font-size: 36px; 
+    color: #333; 
+    text-align: center; 
+    margin-bottom: 20px; 
+  }
+  
+  

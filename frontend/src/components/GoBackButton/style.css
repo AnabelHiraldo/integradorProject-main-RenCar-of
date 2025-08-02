@@ -1,0 +1,42 @@
+.go_back_btn .button {
+    background-color: white;
+    text-align: center;
+    width: 12rem; 
+    height: 3.5rem;
+    position: absolute;
+    left: 8px;
+    top: 8px;
+    color: black;
+    width: 8rem;
+    font-size: .9rem; 
+    font-weight: 600;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .go_back_btn  .button-hover {
+    background-color: #007bff; 
+    border-radius: 0.75rem;
+    height: 3rem;
+    width: 15%;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    transition: width 0.5s ease; 
+  }
+  
+  .go_back_btn .button:hover .button-hover {
+    width: 100%; 
+  }
+  
+  .go_back_btn .button-text {
+    transform: translateX(0.5rem); 
+    position: relative;
+    z-index: 1;
+  }
+  

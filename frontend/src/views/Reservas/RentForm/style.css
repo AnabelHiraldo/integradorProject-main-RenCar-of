@@ -1,0 +1,84 @@
+body {
+    /* background: linear-gradient(135deg, #c3ecfa, #eaf9ff);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0; */
+  }
+  
+  .rent_form {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+    padding: 20px 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-direction: row; */
+    gap: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  .rent_form h1 {
+    font-size: 1.8rem;
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .rent_form label {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .rent_form div input {
+    width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    outline: none;
+    transition: all 0.3s ease;
+  }
+
+  .rent_form div {
+    width: 30%;
+  }
+  
+  .rent_form input:focus {
+    border-color: #7abaff;
+    box-shadow: 0 0 4px rgba(122, 186, 255, 0.6);
+  }
+  
+  .rent_form button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #0078ff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .rent_form button:hover {
+    background-color: #005fcb;
+  }
+  
+  .rent_form button:focus {
+    outline: 2px solid #b3e4ff;
+    outline-offset: 2px;
+  }
+  
+  .rent_form input[type="number"]::-webkit-inner-spin-button,
+  .rent_form input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
